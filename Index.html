@@ -1,1 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pencarian Data Mahasiswa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pencarian Data Mahasiswa</h1>
 
+        <!-- Kotak Pencarian -->
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Masukkan nama mahasiswa...">
+            <ul id="searchResults" class="results-list"></ul>
+        </div>
+
+        <!-- Tampilan detail -->
+        <div id="detailCard" class="detail-card hidden">
+            <h2>Detail Mahasiswa</h2>
+            <p><strong>Nama:</strong> <span id="detailNama"></span></p>
+            <p><strong>NIM:</strong> <span id="detailNIM"></span></p>
+            <p><strong>Jurusan:</strong> <span id="detailJurusan"></p>
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="main.js"></script>
+</body>
+                            </html>
